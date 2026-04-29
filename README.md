@@ -23,18 +23,18 @@ A end-to-end machine learning project benchmarking 4 forecasting models on house
 
 ```
 energy-forecast/
-├── notebook.ipynb          # Full pipeline — EDA through modeling
+├── notebook.ipynb          # Full pipeline — EDA, feature engineering, all models
 ├── dashboard.py            # Streamlit app
 ├── data/
 │   └── energydata_complete.csv
-├── models/
-│   ├── xgb_model.pkl
-│   ├── lgb_model.pkl
-│   ├── lstm_weights.pth
-│   ├── scaler.pkl
-│   └── pt_transformer.pkl
-└── results/
-    └── model_comparison.csv
+├── xgb_model.pkl           # Saved XGBoost model
+├── lgb_model.pkl           # Saved LightGBM model
+├── lstm_weights.pth        # Saved LSTM weights
+├── scaler.pkl              # RobustScaler for LSTM
+├── pt_transformer.pkl      # Yeo-Johnson transformer
+├── feature_cols.pkl        # Feature column names
+├── df_featured.csv         # Engineered feature dataset
+└── model_results.csv       # Final comparison table
 ```
 
 ---
