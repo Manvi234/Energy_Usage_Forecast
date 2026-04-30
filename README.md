@@ -143,6 +143,3 @@ The Streamlit dashboard has three pages:
 
 ---
 
-## Resume Summary
-
-*Benchmarked 4-model forecasting stack (ARIMA → XGBoost → LightGBM → LSTM) on UCI Appliances Energy dataset; reduced MAPE from 27.4% → 22.6% and RMSE from 94.5W → 55.5W through progressive feature engineering, Optuna hyperparameter tuning, and sequence modeling; deployed interactive forecast dashboard at energyusageforecast.streamlit.app*
