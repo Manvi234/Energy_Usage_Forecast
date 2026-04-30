@@ -142,4 +142,14 @@ The Streamlit dashboard has three pages:
 `Python` `PyTorch` `XGBoost` `LightGBM` `Optuna` `statsmodels` `scikit-learn` `Streamlit` `Pandas` `NumPy` `Matplotlib` `Seaborn`
 
 ---
+## 🎓 Author
+**Manvi Vijay Gawande**  
+Data Science Professional | Master's Student at Indiana University Bloomington  
+Specializing in NLP, Generative AI, and Predictive Analytics  
+
+---
+
+## 📜 License
+This project is licensed under the **MIT License**.  
+See the `LICENSE` file for details.
 
